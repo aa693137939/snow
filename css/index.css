@@ -1,0 +1,259 @@
+@charset "UTF-8";
+body{
+	min-width: 1000px;
+	width:100%;
+	margin: 0;
+	padding: 0;
+}
+img{border-width:0;}
+.page{
+	width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.background {
+    height: 9325px;
+    width: 1920px;
+    left: 0;
+    position: relative;
+}
+.background1 {
+    width: 1920px;
+    height: 1507px;
+    background: url(../image/background1.png) no-repeat;
+}
+.background2 {
+    width: 1920px;
+    height: 1536px;
+    background: url(../image/background2.png) no-repeat;
+}
+.background3 {
+    width: 1920px;
+    height: 1790px;
+    background: url(../image/background3.png) no-repeat;
+}
+.background4 {
+    width: 1920px;
+    height: 2989px;
+    background: url(../image/background4.png) no-repeat;
+}
+.background5 {
+    width: 1920px;
+    height: 1505px;
+    background: url(../image/background5.png) no-repeat;
+}
+
+.main{
+    height: 9325px;
+    width: 1920px;
+    top: 0;
+    position: absolute;
+}
+.main .mybtn{
+    width: 337px !important;
+    height: 95px !important;
+    border-radius: 47px !important;
+}
+.main a{
+    display: block;
+    position: absolute;
+    cursor: pointer;
+}
+.main .action1 a{
+    width: 322px;
+    height: 65px;
+    top: 839px;
+    border-radius: 33px;
+}
+.main .action1 .content1{
+    left: 799px;
+}
+
+.main .action2 a{
+    width: 215px;
+    height: 215px;
+    top: 974px;
+    border-radius: 50%;
+}
+.main .action2 img{
+    display:none;
+}
+.main .action2 .content1{
+    left:690px;
+}
+.main .action2 .content1:hover{
+    left: 592px;
+    top: 812px;
+    border-radius: 0px;
+    width: 419px;
+    height: 474px;
+}
+.main .action2 .content2{
+    left:957px;
+}
+.main .action2 .content2:hover{
+    left: 851px;
+    top: 827px;
+    border-radius: 0px;
+    width: 419px;
+    height: 474px;
+}
+.main .action2 .content3{
+    left:1226px;
+}
+.main .action2 .content3:hover{
+    left:1112px;
+    top: 812px;
+    border-radius: 0px;
+    width: 419px;
+    height: 474px;
+}
+
+.main .action3 a{    
+    width: 990px;
+    height: 476px;
+    left: 465px;
+    border-radius: 25px;
+}
+.main .action3 .content1{
+    top: 1507px;
+}
+.main .action3 .content11{
+    top: 1805px;
+    left: 1071px;
+}
+.main .action3 .content2{
+    top:2036px;
+}
+.main .action3 .content21{
+    top: 2334px;
+    left: 513px;
+}
+.main .action3 .content3{
+    top:2565px;
+}
+.main .action3 .content31{
+    top: 2863px;
+    left: 1071px;
+}
+
+.main .action4 a{    
+    width: 480px;
+    height: 443px;
+    left: 465px;
+    border-radius: 25px;
+}
+.main .action4 .content1{
+    top: 3749px;
+}
+.main .action4 .content11{
+    top: 4227px;
+    left: 536px;
+}
+.main .action4 .content2{
+    top: 3749px;
+    left: 975px;
+}
+.main .action4 .content21{
+    top: 4227px;
+    left: 1046px;
+}
+.main .action4 .content3{
+    top: 4370px;
+    left: 465px;
+}
+.main .action4 .content31{
+    top: 4848px;
+    left: 536px;
+}
+.main .action4 .content4{
+    top: 4370px;
+    left: 975px;
+}
+.main .action4 .content41{
+    top: 4848px;
+    left: 1046px;
+}
+.main .action4 .content5{
+    top: 4990px;
+    left: 465px;
+}
+.main .action4 .content51{
+    top: 5468px;
+    left: 536px;
+}
+.main .action4 .content6{
+    top: 4990px;
+    left: 975px;
+}
+.main .action4 .content61{
+    top: 5468px;
+    left: 1046px;
+}
+
+.main .action5 a{    
+    width: 990px;
+    height: 476px;
+    left: 465px;
+    border-radius: 25px;
+}
+.main .action5 .content1{
+    top: 6285px;
+}
+.main .action5 .content11{
+    top: 6651px;
+    left: 782px;
+}
+.main .action5 .content2{
+    top:6814px;
+}
+.main .action5 .content21{
+    top: 7182px;
+    left: 782px;
+}
+.main .action5 .content3{
+    top:7343px;
+}
+.main .action5 .content31{
+    top: 7712px;
+    left: 782px;
+}
+
+.main .action6 a{    
+    width: 384px;
+    height: 24px;
+    left: 664px;
+    border-radius: 12px;
+}
+.main .action6 .content1{
+    top: 8968px;
+}
+.main .action6 .content2{
+    width: 420px;
+    height: 85px;
+    left: 750px;
+    border-radius: 46px;
+    top: 9188px;;
+}
+#snowfixed{
+    position:fixed;
+    width:222px;
+    height:548px;
+    bottom: 10px;
+    left: 30px;
+}
+#snowfixed a{
+    width:96px;
+    height:96px;
+    border-radius: 50%;
+    left: 63px;
+}
+#snowfixed .content1{
+    bottom:278px;
+}
+#snowfixed .content2{
+    bottom:163px;
+}
+#snowfixed .content3{
+    bottom:44px;
+}
